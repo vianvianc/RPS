@@ -44,8 +44,15 @@ var stats = confirm(
     ties +
     "\n Want to play again?"
 );
-// }
-// reload();
+
+function reload() {
+  if (stats === true)
+window.location.reload();
+else (console.log("no play");
+};
+reload();
+
+
 //---------------------------------------------------------------------------
 
 // if (userPrompt == null) {
